@@ -1,0 +1,16 @@
+//Defining variable for current temp in Kelvin
+const Kelvin = 0;
+//Calculation to define value of Celsius
+const Celsius = Kelvin - 273;
+Newton = Celsius * (33 / 100);
+Newton = Math.floor(Newton);
+console.log(`The temperature is ${Newton} Netwon.`);
+
+//Calculation to find F value
+let fahrenheit = Celsius * (9 / 5) + 32;
+//Round Fahrenheit value
+fahrenheit = Math.floor(fahrenheit);
+
+let TEMPERATURE = fahrenheit;
+//String Interpolation = TEMP =fahrenheit
+console.log(`The temperature is ${TEMPERATURE} degrees Fahrenheit.`);
