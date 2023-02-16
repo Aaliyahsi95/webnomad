@@ -1,0 +1,21 @@
+#Program used to retrieve names,city, and state from client with feedback sent back to client.
+
+print "What's your first name?"
+first_name = gets.chomp
+first_name.capitalize! #CAPITALIZES FIRST LETTER ONLY!
+puts "Your first name is #{first_name}!"
+
+print "What's your last name?"
+last_name = gets.chomp
+last_name.capitalize!
+puts "Your last name is #{last_name}!"
+
+print "What's your city?"
+city = gets.chomp
+city.capitalize!
+puts "You live in #{city}."
+
+print "What's your state?"
+state = gets.chomp
+state.upcase! #CAPITALIZES THE WHOLE STATE.
+puts "Your state is #{state}."
